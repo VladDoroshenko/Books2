@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #1e00ff;
+}
+h1, h2, h3{
+  color: #171717;
+  text-align: center;
+  text-decoration: underline;
+}
+div{
+  display: flex;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 3px dotted yellow;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+aside{
+  width: 60%;
+}
+span{
+  font-style: italic;
+}
+a{
+  text-decoration: none;
+  background-color: #73ff00;
+  border: 2px solid #00c200;
+  color: red;
+  width: 40%;
+  padding: 10px
+}
